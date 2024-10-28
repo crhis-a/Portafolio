@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Personalización de animaciones y efectos */
+
+
+body {
+    transition: background-color 0.3s ease;
+    background-color: #042a44;
+    
+}
+
+
+h1, h2 {
+    transition: color 0.3s ease;
+}
+
+header a {
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+/* Efecto hover para tarjetas */
+section div:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.text-justify {
+    text-align: justify;
+}
